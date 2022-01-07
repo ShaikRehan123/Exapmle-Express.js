@@ -3,7 +3,7 @@ const app = express();
 
 app.get("*", (req, res) => {
     res.send({
-        message : 'Hello World! , Ohoo vercel can deploy expressjs apps',
+        message : 'Hello World! , Ohoo render can deploy expressjs apps',
     })
 });
 
